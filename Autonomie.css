@@ -6,10 +6,12 @@
     margin: 0;
     overflow-x: hidden;
 }
+/* Mise en place de la base de notre site */
 
 .over{
     overflow: hidden;
 }
+/* permet de retirer les scrollbars */
 
 .navbar{
     display: flex;
@@ -20,11 +22,13 @@
     padding: 8px 16px;
     margin-left: 50px;
 }
+/* mise en ligne de notre barre de navigation + dispostion de cette dernière */
 
 .navbar img{
     width: 35px;
     height: 35px;
 }
+/* Modification des icônes présentes dans notre barre de navigation */
 
 .center{
     display: flex;
@@ -33,12 +37,14 @@
     padding: 5px 0px;
     margin-right: 1rem;
 }
+/* Permet de centrer l'icône avec son texte */
 
 .center span{
     color: #4b208c;
     font-size: 25px;
     font-weight: 800;
 }
+/* Change la couleur, la taille et l'épaisseur du texte dans la class center */
 
 .auto{
     margin-left: auto;
@@ -49,10 +55,12 @@
     height: 50px;
     gap: 24px;
 }
+/* Permet la bonne disposition de nos liens */
 
 a{
     text-decoration: none;
 }
+/* Enlève les décorations des hyperliens */
 
 .bcg{
     background-color: #4b208c;
@@ -60,16 +68,19 @@ a{
     border-radius: 25px;
     color: white;
 }
+/* Change le background de notre premier lien */
 
 .bcg2{
     padding: 8px 16px;
 }
+/* Défini la taille autour du texte de nos liens */
 
 .bcg2:hover{
     background-color: #4b208c;
     border-radius: 25px;
     color: white;
 }
+/* Change le background au survol des liens avec la souris */
 
 .row{
     display: flex;
@@ -79,6 +90,7 @@ a{
     height: 364.413;
     padding-bottom: 90px;
 }
+/* Disposition en ligne des éléments dans cette section */
 
 .left{
     display: flex;
@@ -89,6 +101,8 @@ a{
     padding: 0px 15px;
     margin-left: 50px;
 }
+/* Disposition en colonne des éléments à gauche de la section row */
+
 .left h2{
     font-size: 2.5rem;
     margin-bottom: .5rem;
@@ -96,12 +110,14 @@ a{
     line-height: 1.2;
     width: 300px;
 }
+/* Mise en place des propriétés du titre dans la colonne de gauche */
 
 .row p{
     margin-top: 20px;
     margin-bottom: 16px;
     font-size: 16px;
 }
+/* Propriété des paragraphes dans la section row */
 
 .left a{
     margin-top: 35px;
@@ -110,10 +126,12 @@ a{
     color: white;
     border-radius: 50px;
 }
+/* Propriété du liens dans la div left */
 
 .left a:hover{
     background-color: #56259f;
 }
+/* Changement du background du lien dans left au survol */
 
 .right{
     display: flex;
@@ -125,16 +143,19 @@ a{
     margin-left: 60px;
     padding: 0px 25px;
 }
+/* Disposition en colonne des éléments à droite de la section row */
 
 .around{
     border-radius: 100%;
     border: #7B57B2 solid 8px;
 }
+/* Permet l'arrondi des images et de rajouter une bordure */
 
 .size{
     width: 370px;
     height: 370px;
 }
+/* Ajuste la taille des images */
 
 #ar-left{
     position: absolute;
@@ -150,6 +171,7 @@ a{
     width: 45px;
     height: 45px;
 }
+/* Propriété de la flèche gauche */
 
 #ar-right{
     position: absolute;
@@ -166,10 +188,12 @@ a{
     width: 45px;
     height: 45px;
 }
+/* Propriété de la flèche droite */
 
 .padd{
     padding: 90px 0px;
 }
+/* Rajoute un espacement entre les sections */
 
 .sec2{
     display: flex;
@@ -181,6 +205,7 @@ a{
     width: 100%;
     height: 998.2px;
 }
+/* Propriété de la 2ème section */
 
 .sec2 h2, .sec2 img, .sec2 div, .sec2 h3, .sec2 p{
     background-color: white;
@@ -189,6 +214,7 @@ a{
     align-items: center;
     text-align: center;
 }
+/* Aligne les éléments et change leurs backgrounds en blanc */
 
 .box{
     margin: 25px 8.65px;
@@ -204,20 +230,24 @@ a{
     width: 238.4px;
     height: 294px;
 }
+/* Met les divs en forme de box avec une ombre */
 
 .box img{
     width: 90px;
 }
+/* Largeur des images dans les div box */
 
 .img-box{    
     height: 125px;
 }
+/* Hauteur des images dans les div box */
 
 .sec2 h2{
     font-size: 2rem;
     margin-bottom: .5rem;
     margin-right: 10px;
 }
+/* Taille et marge des titres dans la 2ème section */
 
 .box h3{
     margin-top: 16px;
@@ -225,18 +255,23 @@ a{
     color: #2E0E5F;
     font-size: 1.25rem;
 }
+/* Taille, couleur et marge des titres dans les div box */
 
 .box p{
     margin-bottom: 1rem;
     font-size: 16px;
 }
+/* Taille et marge inférieur des paragraphes dans les box */
+
 .active, .box:hover{
     border-top: 15px solid #512a97;
 }
+/* Mise en place d'une bordure supérieur dans la box active et au survol des autres box */
 
 .serv2{
     padding-bottom: 60px;
 }
+/* Espacement en-dessous de la 2ème section */
 
 .btn{
     margin-top: 25px;
@@ -245,10 +280,12 @@ a{
     padding: 10px 35px;
     border-radius: 35px;
 }
+/* Propriété du bouton */
 
 .btn:hover{
     background-color: #56259f;
 }
+/* Changement du background au survol du bouton */
 
 .btn2{
     margin-top: 25px;
@@ -258,10 +295,12 @@ a{
     border-radius: 6px;
     border-style: none;
 }
+/* Propriété du 2ème bouton */
 
 .btn2:hover{
     background-color: #56259f;
 }
+/* Changement du background au survol du 2ème bouton */
 
 .row2{
     display: flex;
@@ -269,11 +308,14 @@ a{
     justify-content: flex-start;
     align-items: center;
 }
+/* Propriété d'alignement titre + icône */
 
 .row2 h2{
     margin-bottom: .5rem;
     margin-right: 10px;
+    width: 180px;
 }
+/* propriété du titre dans la 3ème section */
 
 .sec3{
     display: flex;
@@ -281,12 +323,14 @@ a{
     justify-content: center;
     align-items: center;
 }
+/* Disposition en ligne des éléments dans la 3ème section */
 
 .width{
     width: 80%;
     font-size: 20px;
     margin: 25px 0px 16px;
 }
+/* Propriété du paragraphe de la 3ème section */
 
 .human2{
     position: absolute;
@@ -296,6 +340,7 @@ a{
     width: 305.4px;
     height: 307.81px;
 }
+/* Propriété de l'image en haut à gauche */
 
 .human3{
     position: absolute;
@@ -305,6 +350,7 @@ a{
     width: 215.4px;
     height: 223.31px;
 }
+/* Propriété de l'image en bas à droite */
 
 .blog{
     display: flex;
@@ -316,6 +362,7 @@ a{
     width: 100%;
     height: auto;
 }
+/* Propriété de la section blog */
 
 .blog h2, .blog img, .blog div, .blog h3, .blog p{
     background-color: white;
@@ -324,6 +371,7 @@ a{
     align-items: flex-start;
     text-align: left;
 }
+/* Aligne les éléments et change leurs backgrounds en blanc */
 
 .row3{
     display: flex;
@@ -332,14 +380,16 @@ a{
     align-items: center;
     background-color: white;
 }
+/* Alignement texte et icône */
 
 .row3 h2{
-    margin-bottom: .5rem;
+    margin-bottom: 5px;
     margin-right: 10px;
     font-size: 32px;
     font-weight: 800;
     background-color: white;
 }
+/* Propriété du titre de row3 */
 
 .article{
     display: flex;
@@ -350,6 +400,7 @@ a{
     width: 100%;
     padding-bottom: 10px;
 }
+/* Mise en position des articles */
 
 .art1{
     display: flex;
@@ -362,25 +413,30 @@ a{
     overflow: hidden;
     width: 450px;
 }
+/* Propriété du 1ère article */
 
 .art1 img{
     width: 100%;
     height: auto;
 }
+/* Hauteur et largeur de l'image art1 */
 
 .art1 h3{
     margin-bottom: 8px;
 }
+/* Marge en-dessous du titre art1 */
 
 .art1 p{
     margin-bottom: 16px;
 }
+/* Marge en-dessous du paragraphe art1 */
 
 .padd2{
     padding: 25px 25px 15px;
     display: flex;
     flex-direction: column;
 }
+/* mise en place de l'espacement autour de padd2 */
 
 .contact{
     display: flex;
@@ -392,6 +448,7 @@ a{
     width: 100%;
     height: auto;
 }
+/* Propriété de la section contacte */
 
 .row4{
     display: flex;
@@ -401,6 +458,7 @@ a{
     background-color: white;
     padding-left: 15px;
 }
+/* Propriété de la div row4 */
 
 .row4 h2{
     margin-bottom: .5rem;
@@ -408,14 +466,17 @@ a{
     font-size: 32px;
     font-weight: 800;
 }
+/* Taille, marge et epaisseur titre de row4 */
 
 .contact h2, .contact img, .contact p, .contact div, .contact form, .contact input{
     background-color: white;
 }
+/* Changement background en blanc */
 
 .row4, .formul{
     margin-left: 68.2px;
 }
+/* Ajout d'une marge à gauche de row4 et formul */
 
 .formul{
     display: flex;
@@ -424,6 +485,7 @@ a{
     margin-top: 35px;
     padding: 10px 50px 10px 15px;
 }
+/* Propriété du formulaire */
 
 .formul input{
     padding: 1px 2px 0px 25px;
@@ -432,16 +494,19 @@ a{
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
     border: none;
 }
+/* Propriété des inputs du formulaire */
 
 #message{
     height: 120px;
 }
+/* Changement de hauteur pour l'input message */
 
 .centre{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+/* Centre et met en ligne le formulaire et le paragraphe */
 
 .centre p{
     width: 450px;
@@ -451,10 +516,12 @@ a{
     color: #2F2F2F;
     font-size: small;
 }
+/* Propriété du paragraphe dans la class centre */
 
 input:focus{
     outline: none;
 }
+/* Permet de retirer le surplus des bords sur les inputs */
 
 .send{
     margin-top: 35px;
@@ -464,19 +531,23 @@ input:focus{
     color: white;
     background-color: #4B208C;
 }
+/* Propriété du bouton send */
 
 .send:hover{
     background-color: #56259f;
 }
+/* Changement du couleur de fond du bouton send au survol */
 
 .info{
     background-color: #190734;
 }
+/* Changement de background */
 
 .info a, .info img, .info p, .info div, .info form{
     background-color: #190734;
     color: white;
 }
+/* Changement de background et de couleur de texte pour les éléments de info */
 
 .row5{
     display: flex;
@@ -487,6 +558,7 @@ input:focus{
     padding-top: 60px;
     padding-bottom: 45px;
 }
+/* Met en ligne et positionne les liens */
 
 .loc, .phn{
     display: flex;
@@ -496,6 +568,8 @@ input:focus{
     padding: 0px 15px;
     width: 290px;
 }
+/* Aligne l'image et le paragraphe dans loc et phn */
+
 .mail{
     display: flex;
     flex-direction: row;
@@ -504,10 +578,12 @@ input:focus{
     padding: 0px 0px 0px 15px;
     width: 290px;
 }
+/* Aligne l'image et le paragraphe dans mail */
 
 .loc img, .phn img, .mail img{
     margin-right: 10px;
 }
+/* Met une marge à droite de l'image de loc, phn, mail */
 
 .row6{
     display: flex;
@@ -519,6 +595,7 @@ input:focus{
     padding-bottom: 45.1px;
     gap: 8px;
 }
+/* Met en ligne et positionne les liens et le formulaire */
 
 .form{
     display: flex;
@@ -529,6 +606,7 @@ input:focus{
     height: 42.4px;
     width: 690px;
 }
+/* Propriété de la class form */
 
 #email2{
     width: 67%;
@@ -536,6 +614,7 @@ input:focus{
     background-color: white;
     padding-left: 15px;
 }
+/* Propriété de l'input email2 */
 
 .sub{
     width: 33%;
@@ -545,11 +624,18 @@ input:focus{
     padding: 10px 30px;
     border: hidden;
 }
+/* Propriété du bouton subscribe */
+
+.sub:hover{
+    background-color: #56259f;
+}
+/* Changement du couleur de fond du bouton sub au survol */
 
 .imag{
    width: 35px;
    height: 35px;
 }
+/* Taille des images servant de liens */
 
 footer{
     display: flex;
@@ -559,15 +645,15 @@ footer{
     height: 64px;
     font-size: 16px;
 }
+/* Propriété du bas de page */
 
 footer p{
     background-color: white;
 }
+/* Couleur du background pour le texte du footer */
 
-.sub:hover{
-    background-color: #56259f;
-}
 
 button:hover, i:hover, a:hover, .box:hover{
     cursor: pointer;
 }
+/* Change le curseur en pointeur au survol des éléments */
